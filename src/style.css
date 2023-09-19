@@ -1,4 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
 body {
-  background-color: red;
-  background-color: wheat;
+  font-family: "Righteous", cursive;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: rgb(255, 255, 255);
+  background-image: url(/src/image/backgroundimg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title-leader-wrap {
+  display: flex;
+  padding: 0% 15% 0% 15%;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+}
+
+.container-wrap {
+  display: flex;
+  padding: 0% 15% 0% 15%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.score-btn-wrap {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.refresh-btn {
+  margin: 10px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(245, 113, 104);
+}
+
+.refresh-btn:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(243, 151, 170));
+}
+
+.refresh-btn:active {
+  background-color: gray;
+}
+
+.form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.submit-btn {
+  position: absolute;
+  right: -10px;
+  top: 60px;
+  margin: 10px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(125, 214, 24);
+}
+
+.submit-btn:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(93, 146, 31));
+}
+
+.submit-btn:active {
+  background-color: gray;
+}
+
+@media (max-width: 768px) {
+  .title-leader-wrap {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+  }
+
+  .container-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 15% 0% 15%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }
