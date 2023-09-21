@@ -16,14 +16,28 @@
           <h1>RECENT SCORES</h1>
           <button class="refresh-btn">FREFRESH</button>
         </section>
-        <section class="leader-board"></section>
+        <section class="leader-board">
+          <ul class="leader-board-ul"></ul>
+        </section>
       </section>
       <section class="input-leader-board-wrap">
         <h1 class="title-input">ADD YOUR SCORE</h1>
         <form class="form" action="">
-          <input type="text" class="name" value="" />
-          <input type="text" class="score" value="" />
-          <button class="submit-btn">SUBMIT</button>
+          <input
+            class="input-name-score"
+            type="text"
+            id="name"
+            placeholder="Name"
+            value=""
+          />
+          <input
+            class="input-name-score"
+            type="number"
+            id="score"
+            placeholder="score"
+            value=""
+          />
+          <button id="sub-btn" class="submit-btn">SUBMIT</button>
         </form>
       </section>
     </section>

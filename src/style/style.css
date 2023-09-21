@@ -21,7 +21,7 @@ body {
   display: flex;
   padding: 0% 15% 0% 15%;
   text-align: center;
-  align-items: center;
+  align-items: start;
   justify-content: space-evenly;
 }
 
@@ -47,6 +47,39 @@ body {
   background-color: gray;
 }
 
+.leader-board {
+  background-color: gray;
+  height: clamp(50px, 100%, 200px);
+  width: 250px;
+  overflow-x: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  display: block;
+  background-color: gainsboro;
+}
+
+ul li p {
+  border-radius: 10px;
+  background-color: rgb(164, 146, 243);
+  padding: 5px;
+  margin: 0;
+  font-family: "Righteous", cursive;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
 .form {
   display: flex;
   position: relative;
@@ -54,6 +87,23 @@ body {
   text-align: center;
   align-items: start;
   gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.input-name-score {
+  height: 20px;
+  width: 230px;
+  background-color: aquamarine;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 250, 152);
+}
+
+.input-name-score:focus {
+  outline: none;
+  border: 1px solid coral;
+  box-shadow: 0 0 5px coral;
 }
 
 .submit-btn {
