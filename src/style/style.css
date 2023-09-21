@@ -61,10 +61,9 @@ ul {
 }
 
 ul li {
-  display: flex;
+  display: block;
   text-align: start;
   align-items: center;
-  display: block;
   background-color: gainsboro;
 }
 
