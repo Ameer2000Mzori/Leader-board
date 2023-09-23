@@ -1,9 +1,11 @@
 const newPlayer = async () => {
   const playerName = document.getElementById("name").value;
   const playerScore = document.getElementById("score").value;
+  const errorP = document.getElementById('error');
 
   if (playerName === "" && playerScore === "") {
     console.log('wrong');
+    errorP.textContent = 'please enter name of the player and/or their score!';
   } else {
     await fetch(
       'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUAZ/scores/',

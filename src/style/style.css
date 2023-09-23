@@ -129,6 +129,13 @@ ul li p {
   background-color: gray;
 }
 
+#error {
+  color: red;
+  position: relative;
+  top: 3rem;
+  max-width: 200px;
+}
+
 @media (max-width: 768px) {
   .title-leader-wrap {
     display: flex;
