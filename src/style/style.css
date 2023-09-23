@@ -65,10 +65,15 @@ ul li {
   text-align: start;
   align-items: center;
   background-color: gainsboro;
+  border: 1px solid gainsboro; /* Simplify border styling */
+  border-bottom: none;
+}
+
+ul li:last-child {
+  border-bottom: 1px solid black; /* Set the bottom border for the last item */
 }
 
 ul li p {
-  border-radius: 10px;
   background-color: rgb(164, 146, 243);
   padding: 5px;
   margin: 0;

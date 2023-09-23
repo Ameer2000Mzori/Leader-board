@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
     mode: "development",
     entry: {
-        bundle: path.resolve(__dirname, "src", "script.js"), // Use forward slashes for path
+        bundle: path.resolve(__dirname, "src", "main.js"), // Use forward slashes for path
     },
     output: {
         path: path.resolve(__dirname, "dist"),

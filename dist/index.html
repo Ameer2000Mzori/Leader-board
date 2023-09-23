@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
   <script defer src="bundle.js"></script></head>
   <body>
     <div class="title-leader-wrap">
@@ -38,8 +38,14 @@
             value=""
           />
           <button id="sub-btn" class="submit-btn">SUBMIT</button>
+          <p id="error"></p>
         </form>
       </section>
     </section>
+    <script type="module" src="./components/addPlayer.js"></script>
+    <script type="module" src="./components/leaderBaordObj.js"></script>
+    <script type="module" src="./components/listRefresh.js"></script>
+
+    <script type="module" src="main.js"></script>
   </body>
 </html>
