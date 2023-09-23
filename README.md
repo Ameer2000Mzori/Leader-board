@@ -29,7 +29,11 @@
   <ul>
         <li><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
         <li><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
-        <li><a href="https://nl.wikipedia.org/wiki/JavaScript">Javascript</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></li>
+        <li><a href="https://webpack.js.org/">WebPack</a></li>
+                <li><a href="https://eslint.org/">Eslint</a></li>
+        <li><a href="https://webpack.js.org/">notionapi</a></li>
+        
     
   </ul>
 </details>
@@ -40,6 +44,8 @@
 
 - **[multi-page responsive website]**
 - **[flex & grid]**
+- **[use of api]**
+- **[wbpack ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -49,7 +55,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://ameer2000mzori.github.io/awesomebooks/)
+- [Live Demo Link](https://ameer2000mzori.github.io/Leader-board/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
