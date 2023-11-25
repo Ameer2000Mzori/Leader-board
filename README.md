@@ -16,9 +16,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portafolio <a name="about-project"></a>
+# 📖 About This Project <a name="about-project"></a>
 
-> This is my website portfolio, made with HTML, CSS, and JavaScript. and it's a multi-page responsive website. it's a whole website made for desktop and mobile versions.
+> The Leader-board website is crafted with HTML, CSS, and JavaScript. Linters were employed to overcome code issues and maintain code cleanliness. Explore the live demo or sample images to get a glimpse of the project, which utilizes local storage for data persistence.
+
+# Sample Of Website <a name="Sample-Of-Website"></a>
+
+![alt text](./sample/1.png)
+![alt text](./sample/2.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -27,14 +32,11 @@
 <details>
   <summary>Client</summary>
   <ul>
-        <li><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></li>
-        <li><a href="https://webpack.js.org/">WebPack</a></li>
-                <li><a href="https://eslint.org/">Eslint</a></li>
-        <li><a href="https://webpack.js.org/">notionapi</a></li>
-        
-    
+  <li><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></li>
+  <li><a href="https://stylelint.io/">Html/CSS Linters</a></li>
+    <li><a href="https://webpack.js.org/">Web Pack</a></li>
   </ul>
 </details>
 
@@ -42,10 +44,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[multi-page responsive website]**
-- **[flex & grid]**
-- **[use of api]**
-- **[wbpack ]**
+- **[Responsive Website]**
+- **[Flex & Grid]**
+- **[CSS ]**
+- **[JavaScript ]**
+- **[Linters ]**
+- **[Web Pack ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,8 +95,6 @@ If you like this project, don't hesitate to give it a star 😊.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Microverse team for the resources.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
